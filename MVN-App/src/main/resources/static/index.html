@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="index.css">
+<title>Executing Testcase Details</title>
+</head>
+
+<body>
+	<nav class='navbar navbar-default navbar-fixed-top'>
+		<div class='container'>
+			<div class='navbar-header'>
+				<img class='logo'
+					src='http://34.236.106.77/clweb/assets/images/nicola-wealth-logo.svg'>
+			</div>
+			<div id='navbar' class='navbar-collapse collapse'>
+				<div class='nav navbar-nav navbar-right'>
+					<a class='navbar-brand'>Automation Testing Status</a>
+				</div>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="container main-progress mTop">
+		<div class="row heading">
+			<h2>Test Execution Details</h2>
+		</div>
+		<div class="row data-div">
+			<div class="col-md-4">
+				<div class="card nicolaBlue">
+					<div class="title data">Browser</div>
+					<div class="value" id="browser"></div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card nicolaBlue">
+					<div class="title data">Total Testcases</div>
+					<div class="value" id="totalTestcases"></div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card nicolaBlue">
+					<div class="title data">Executed Testcases</div>
+					<div class="value" id="completed"></div>
+				</div>
+			</div>
+		</div>
+		<div class="mTop">
+			<div class="progress">
+				<b class="progress__bar"> <span class="progress__text">
+						Progress: <em id="percentage"></em>
+				</span>
+				</b>
+			</div>
+		</div>
+		<div class="row mTop">
+			<div class="col-md-6">
+				<div class="card white">
+					<div class="title data">Previous Execution</div>
+					<div class="value" id="executed-test"></div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card white">
+					<div class="title data">In-Progress Testcase</div>
+					<div class="value" id="started-test"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="col-md-6 text-left">
+			<span class="copyright-text">&copy; Copyright 2018 Nicola
+				Wealth Management | Confidential &amp; Proprietary</span>
+		</div>
+		<div class="col-md-4 col-md-offset-6 text-right"></div>
+		<img src="n-logo.png" width="30" />
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
